@@ -20,7 +20,8 @@
   },
   "include": [
     "credentials/**/*",
-    "nodes/**/*"
+    "nodes/**/*",
+    "nodes/**/*.svg"
   ],
   "exclude": [
     "dist",
