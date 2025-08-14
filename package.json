@@ -1,0 +1,60 @@
+{
+  "name": "n8n-nodes-lmstudio-embeddings",
+  "version": "0.1.0",
+  "description": "n8n community node for LM Studio Embeddings API with encoding format selection",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "lmstudio",
+    "embeddings",
+    "ai",
+    "machine-learning"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/plixplox/n8n-nodes-lmstudio-embeddings",
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plixplox/n8n-nodes-lmstudio-embeddings.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "format": "prettier nodes credentials --write",
+    "lint": "eslint nodes credentials package.json --ext .ts",
+    "lintfix": "eslint nodes credentials package.json --ext .ts --fix",
+    "prepublishOnly": "npm run build && npm run lint"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/LMStudioApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/LMStudioEmbeddings.node.js"
+    ]
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.3.0"
+  },
+  "peerDependencies": {
+    "@langchain/core": "~0.3.0",
+    "n8n-workflow": "*"
+  },
+  "devDependencies": {
+    "@langchain/core": "~0.3.0",
+    "@types/node": "^18.19.122",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
+    "eslint-plugin-n8n-nodes-base": "^1.11.0",
+    "n8n-workflow": "*",
+    "typescript": "^5.9.2"
+  }
+}
