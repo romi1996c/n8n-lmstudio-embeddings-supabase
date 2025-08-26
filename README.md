@@ -1,9 +1,9 @@
 # n8n-nodes-lmstudio-embeddings
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Version](https://img.shields.io/badge/version-1.0.6-blue)
 
-A community n8n node for generating embeddings through LM Studio API with encoding format selection.
+A community n8n node for generating embeddings through LM Studio API with encoding format selection. (Specifically designed to operate with Supabase Vector Store)
 
 ## Description
 
@@ -24,7 +24,10 @@ This package provides an n8n node for integration with LM Studio - a local syste
 1. Open n8n
 2. Go to settings
 3. Select "Community Nodes"
-4. Install package: `n8n-nodes-lmstudio-embeddings`
+4. Install package: `n8n-nodes-lmstudio-embeddings-supabase`
+
+## Known problem
+- Does not display node activity and output on UI, embedding operation still work fine
 
 ## Usage
 
