@@ -1,7 +1,7 @@
 {
   "name": "n8n-nodes-lmstudio-embeddings-supabase",
   "version": "1.0.0",
-  "description": "n8n community node for LM Studio Embeddings API with encoding format selection",
+  "description": "n8n community node for LM Studio Embeddings API with encoding format selection, specifically design for Supabase",
   "keywords": [
     "n8n-community-node-package",
     "n8n",
@@ -11,14 +11,14 @@
     "machine-learning"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/plixplox/n8n-nodes-lmstudio-embeddings",
+  "homepage": "https://github.com/romi1996c/n8n-nodes-lmstudio-embeddings-supabase",
   "author": {
-    "name": "plixplox",
-    "email": "plix.plox@mail.ru"
+    "name": "plixplox and romi1996",
+    "email": "plix.plox@mail.ru and contact@wceaglobal.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/plixplox/n8n-nodes-lmstudio-embeddings.git"
+    "url": "https://github.com/romi1996c/n8n-nodes-lmstudio-embeddings-supabase.git"
   },
   "main": "dist/index.js",
   "scripts": {
