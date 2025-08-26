@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-lmstudio-embeddings",
+  "name": "n8n-nodes-lmstudio-embeddings-supabase",
   "version": "1.0.0",
   "description": "n8n community node for LM Studio Embeddings API with encoding format selection",
   "keywords": [
