@@ -27,7 +27,7 @@ This package provides an n8n node for integration with LM Studio - a local syste
 4. Install package: `n8n-nodes-lmstudio-embeddings-supabase`
 
 ## Known problem
-- Does not display node activity and output on UI, embedding operation still work fine
+- Does not display node activity and output on UI, embedding operation still work fine (Fixed in Package version 1.0.7-alpha.8)
 
 ## Usage
 
